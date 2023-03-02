@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="178dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="12dp"
+    android:layout_margin="10dp"
+
+            >
+
+    <LinearLayout
+        android:layout_width="178dp"
+        android:layout_height="320dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_margin="10dp"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/boisson"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="16dp"
+            />
+
+
+        <TextView
+            android:id="@+id/prixempty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:layout_marginLeft="16dp"
+            />
+
+
+        <TextView
+            android:id="@+id/quantiteempty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="7dp"
+            android:textSize="14dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+        <ImageView
+            android:id="@+id/update"
+            android:layout_height="25dp"
+            android:layout_width="25dp"
+            android:layout_margin="25dp"
+            android:src="@drawable/baseline_edit_24" />
+
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_height="25dp"
+                android:layout_width="25dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/baseline_delete_outline_24" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+

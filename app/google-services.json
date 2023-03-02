@@ -1,0 +1,171 @@
+{
+  "project_info": {
+    "project_number": "423797279040",
+    "project_id": "coffee-android-7dad4",
+    "storage_bucket": "coffee-android-7dad4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423797279040:android:67b8cd256061240026d2a5",
+        "android_client_info": {
+          "package_name": "com.example.coffe_hub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423797279040-i1p4ep7ekv3a2ianolb62mr9l1rpmdm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQkBGqRYCrFAjFNrcBuV6DWpA79rOPVio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423797279040-i1p4ep7ekv3a2ianolb62mr9l1rpmdm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423797279040:android:c216f65c6e21f3f826d2a5",
+        "android_client_info": {
+          "package_name": "com.example.coffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423797279040-i1p4ep7ekv3a2ianolb62mr9l1rpmdm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQkBGqRYCrFAjFNrcBuV6DWpA79rOPVio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423797279040-i1p4ep7ekv3a2ianolb62mr9l1rpmdm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423797279040:android:8f53f73a980b7c7c26d2a5",
+        "android_client_info": {
+          "package_name": "com.example.coffeeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423797279040-i1p4ep7ekv3a2ianolb62mr9l1rpmdm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQkBGqRYCrFAjFNrcBuV6DWpA79rOPVio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423797279040-i1p4ep7ekv3a2ianolb62mr9l1rpmdm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423797279040:android:bc4e559d8b525bdb26d2a5",
+        "android_client_info": {
+          "package_name": "com.example.projetandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423797279040-6lkr3skhlo10via68tjj28n21bkl0v4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projetandroid",
+            "certificate_hash": "7fea0ed251ccdc382c96bc2fb45f55387b6e18bd"
+          }
+        },
+        {
+          "client_id": "423797279040-i1p4ep7ekv3a2ianolb62mr9l1rpmdm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQkBGqRYCrFAjFNrcBuV6DWpA79rOPVio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423797279040-i1p4ep7ekv3a2ianolb62mr9l1rpmdm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423797279040:android:93caa302fc887e4926d2a5",
+        "android_client_info": {
+          "package_name": "com.example.projetcoffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423797279040-0nn3hostiq2lj8m7lnv8p115jm8ja0b9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projetcoffee",
+            "certificate_hash": "b4e6122386be9d7ec9684c6950f2bc03ebd51a5f"
+          }
+        },
+        {
+          "client_id": "423797279040-i1p4ep7ekv3a2ianolb62mr9l1rpmdm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQkBGqRYCrFAjFNrcBuV6DWpA79rOPVio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423797279040-i1p4ep7ekv3a2ianolb62mr9l1rpmdm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

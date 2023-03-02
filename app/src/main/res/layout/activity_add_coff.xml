@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCoff">
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="368dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="entrer type du caffée a ajouter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/prix"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:hint="entrer prix"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/type" />
+
+    <EditText
+        android:id="@+id/quantite"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="entrer quantité"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prix" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="389dp"
+        android:layout_height="284dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/addImage"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/addImage"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="choisir une photo"
+        app:layout_constraintBottom_toTopOf="@+id/addCoffee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="choisir une photo"
+        app:backgroundTint="@color/brown"
+        />
+
+    <Button
+        android:id="@+id/addCoffee"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="64dp"
+        android:text="ajouter un Produit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:backgroundTint="@color/brown"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

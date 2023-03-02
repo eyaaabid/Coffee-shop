@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Send_OTP">
+
+    <LinearLayout
+        android:id="@+id/phoneLl"
+
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/otp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Otp Verification"
+            android:textSize="20sp"
+            android:textColor="@color/brown"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="50dp"
+            android:gravity="center"
+            android:text="We will send you a one time password on this mobile mumber"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            android:textColor="@color/brown"
+            android:text="enter_mobile_number"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="+216"
+                android:textSize="14sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/inputmobile"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:hint="xx xxx xxx"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:textSize="16sp"
+                android:textStyle="bold">
+
+            </EditText>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/BtngetOTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@drawable/background_button"
+            android:minHeight="48dp"
+            android:text="Get OTP"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/ProgressBar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:visibility="gone">
+
+        </ProgressBar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/codeLll"
+
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/receive">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please enter the OTP code we send to your mobile"
+            android:gravity="center"
+
+            >
+
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/codeEt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+
+            android:hint="OTP code"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/codesubmut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@drawable/background_button"
+            android:text="Verify"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        />
+
+        <TextView
+            android:id="@+id/Receive"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/brown"
+            android:textStyle="bold"
+            android:text="Didnt receive OTP code ? Resend" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
